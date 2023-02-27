@@ -6,6 +6,5 @@
     "experimentalDecorators": true,
     "moduleResolution": "Node",
     "isolatedModules": false
-    // "allowSyntheticDefaultImports": true
   }
 }

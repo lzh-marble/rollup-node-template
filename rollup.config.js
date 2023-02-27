@@ -6,7 +6,7 @@ import { babel } from "@rollup/plugin-babel";
 import replace from "@rollup/plugin-replace";
 import pkg from "./package.json";
 
-const production = process.env.NODE_ENV == "prod";
+const isProduction = process.env.NODE_ENV == "prod";
 
 function createConfig() {
   return {
@@ -36,7 +36,7 @@ function createConfig() {
         extensions: [".js", ".ts"],
         babelHelpers: "bundled",
       }),
-      production && terser(),
+      isProduction && terser(),
     ],
   };
 }
