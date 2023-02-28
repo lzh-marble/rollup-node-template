@@ -1,6 +1,6 @@
 {
   "name": "rollup-node-template",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "a template for building library on node, which use rollup and supports typescript",
   "author": {
     "name":"lzh-marble",
@@ -20,9 +20,9 @@
     "@rollup/plugin-commonjs": "^17.0.0",
     "@rollup/plugin-node-resolve": "^11.1.0",
     "@rollup/plugin-replace": "^4.0.0",
+    "@rollup/plugin-terser": "^0.4.0",
     "npm-run-all": "^4.1.5",
     "rollup": "^2.79.1",
-    "rollup-plugin-terser": "^7.0.2",
     "typescript": "^4.9.5"
   },
   "main": "dist/index.js",
